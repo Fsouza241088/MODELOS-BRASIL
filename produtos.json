@@ -50,7 +50,7 @@
       "novo": true,
       "maisVendido": false,
       "imagem": "assets/gol_g5.jpg",
-      "glb": "glb/carro_gol.glb",
+      "glb": "glb/bancos.glb",
       "formatos": [
         "GLB",
         "FBX",
