@@ -13,134 +13,38 @@
   <header class="mb-header">
     <a class="brand" href="index.html" aria-label="MODELOS BRASIL">
       <img src="logo.svg" alt="MODELOS BRASIL" />
-      <span>
-        <strong>MODELOS <b>BRASIL</b></strong>
-        <small>3D Assets Marketplace</small>
-      </span>
+      <span><strong>MODELOS <b>BRASIL</b></strong><small>3D Assets Marketplace</small></span>
     </a>
-
-    <label class="top-search" aria-label="Busca global">
-      <span>⌕</span>
-      <input id="globalSearch" type="search" placeholder="Buscar modelos, veículos, packs, categorias..." />
-    </label>
-
-    <nav class="main-nav" aria-label="Navegação principal">
-      <a class="active" href="#descobrir">Descobrir</a>
-      <a href="#canais">Canais</a>
-      <a href="#catalogo">Catálogo</a>
-      <a href="#licenca">Licença</a>
-    </nav>
-
+    <label class="top-search" aria-label="Busca global"><span>⌕</span><input id="globalSearch" type="search" placeholder="Buscar modelos, veículos, packs, categorias..." /></label>
+    <nav class="main-nav" aria-label="Navegação principal"><a class="active" href="#descobrir">Descobrir</a><a href="#canais">Canais</a><a href="#catalogo">Catálogo</a><a href="#licenca">Licença</a></nav>
     <a class="profile-btn" href="mailto:fabricio.souza2088@gmail.com?subject=Contato - MODELOS BRASIL" title="Contato">◎</a>
   </header>
 
   <main class="market-layout">
     <aside class="sidebar" aria-label="Filtros e categorias">
-      <section class="sidebar-block">
-        <h2>Categorias</h2>
-        <div id="categoryMenu" class="side-list"></div>
-      </section>
-
-      <section class="sidebar-block">
-        <h2>Compatível com</h2>
-        <button class="side-item" data-engine="Unreal Engine"><span>Unreal Engine</span><b>UE</b></button>
-        <button class="side-item" data-engine="Blender"><span>Blender</span><b>3D</b></button>
-        <button class="side-item" data-engine="GTA / FiveM"><span>GTA / FiveM</span><b>MOD</b></button>
-        <button class="side-item" data-engine="Unity"><span>Unity</span><b>UNI</b></button>
-      </section>
-
-      <section class="sidebar-block">
-        <h2>Tipo de produto</h2>
-        <label class="check-row"><input type="checkbox" value="Modelo individual" data-type-filter> Modelo Individual</label>
-        <label class="check-row"><input type="checkbox" value="Pack" data-type-filter> Pack</label>
-        <label class="check-row"><input type="checkbox" value="Game Ready" data-type-filter> Game Ready</label>
-        <label class="check-row"><input type="checkbox" value="Low Poly" data-type-filter> Low Poly</label>
-      </section>
-
+      <section class="sidebar-block"><h2>Categorias</h2><div id="categoryMenu" class="side-list"></div></section>
+      <section class="sidebar-block"><h2>Compatível com</h2><button class="side-item" data-engine="Unreal Engine"><span>Unreal Engine</span><b>UE</b></button><button class="side-item" data-engine="Blender"><span>Blender</span><b>3D</b></button><button class="side-item" data-engine="GTA / FiveM"><span>GTA / FiveM</span><b>MOD</b></button><button class="side-item" data-engine="Unity"><span>Unity</span><b>UNI</b></button></section>
+      <section class="sidebar-block"><h2>Tipo de produto</h2><label class="check-row"><input type="checkbox" value="Modelo individual" data-type-filter> Modelo Individual</label><label class="check-row"><input type="checkbox" value="Pack" data-type-filter> Pack</label><label class="check-row"><input type="checkbox" value="Game Ready" data-type-filter> Game Ready</label><label class="check-row"><input type="checkbox" value="Low Poly" data-type-filter> Low Poly</label></section>
       <button class="clear-btn" id="clearFilters">Limpar filtros ↻</button>
     </aside>
 
     <section class="content">
       <section class="hero-v3" id="descobrir">
-        <div class="hero-card">
-          <div class="hero-overlay"></div>
-          <div class="hero-copy">
-            <span class="pill-success">BEM-VINDO À</span>
-            <h1>MODELOS BRASIL</h1>
-            <p class="hero-subtitle">Modelos 3D prontos para seus projetos</p>
-            <p>Veículos brasileiros, máquinas, packs e assets otimizados para games, simulação, Unreal Engine, Blender e muito mais.</p>
-            <div class="hero-actions">
-              <a class="btn yellow" href="#catalogo">Explorar Catálogo</a>
-              <a class="btn dark" href="#como-funciona">Ver como funciona</a>
-            </div>
-          </div>
-          <div class="hero-visual" id="heroVisual"></div>
-          <div class="slider-dots"><i></i><i></i><i></i><i></i></div>
-        </div>
-
-        <aside class="featured-panel">
-          <div class="panel-title"><span>✥</span><strong>Destaques</strong></div>
-          <div id="featuredList" class="featured-list"></div>
-          <a class="view-all" href="#catalogo">Ver todos destaques <span>›</span></a>
-        </aside>
+        <div class="hero-card"><div class="hero-overlay"></div><div class="hero-copy"><span class="pill-success">BEM-VINDO À</span><h1>MODELOS BRASIL</h1><p class="hero-subtitle">Modelos 3D prontos para seus projetos</p><p>Veículos brasileiros, máquinas, packs e assets otimizados para games, simulação, Unreal Engine, Blender e muito mais.</p><div class="hero-actions"><a class="btn yellow" href="#catalogo">Explorar Catálogo</a><a class="btn dark" href="#beneficios">Conhecer vantagens</a></div></div><div class="hero-visual" id="heroVisual"></div><div class="slider-dots"><i></i><i></i><i></i><i></i></div></div>
+        <aside class="featured-panel"><div class="panel-title"><span>✥</span><strong>Destaques</strong></div><div id="featuredList" class="featured-list"></div><a class="view-all" href="#catalogo">Ver todos destaques <span>›</span></a></aside>
       </section>
 
-      <section id="canais" class="channels-section">
-        <h2>Canais principais</h2>
-        <div class="channels-grid">
-          <button class="channel-card" data-channel="Unreal Engine"><span class="channel-icon">U</span><strong>UNREAL ENGINE</strong><small>Assets para engine</small><b>›</b></button>
-          <button class="channel-card" data-channel="Blender"><span class="channel-icon blender">B</span><strong>BLENDER</strong><small>Modelagem e edição</small><b>›</b></button>
-          <button class="channel-card" data-channel="GTA / FiveM"><span class="channel-icon gta">V</span><strong>GTA / FIVEM</strong><small>Mods e servidores</small><b>›</b></button>
-          <button class="channel-card" data-category="packs"><span class="channel-icon pack">□</span><strong>PACKS</strong><small>Pacotes completos</small><b>›</b></button>
-        </div>
-      </section>
+      <section id="canais" class="channels-section"><h2>Canais principais</h2><div class="channels-grid"><button class="channel-card" data-channel="Unreal Engine"><span class="channel-icon">U</span><strong>UNREAL ENGINE</strong><small>Assets para engine</small><b>›</b></button><button class="channel-card" data-channel="Blender"><span class="channel-icon blender">B</span><strong>BLENDER</strong><small>Modelagem e edição</small><b>›</b></button><button class="channel-card" data-channel="GTA / FiveM"><span class="channel-icon gta">V</span><strong>GTA / FIVEM</strong><small>Mods e servidores</small><b>›</b></button><button class="channel-card" data-category="packs"><span class="channel-icon pack">□</span><strong>PACKS</strong><small>Pacotes completos</small><b>›</b></button></div></section>
 
-      <section id="catalogo" class="catalog-section">
-        <div class="catalog-header">
-          <div>
-            <h2>Produtos em destaque</h2>
-            <p>Catálogo conectado ao arquivo produtos.json para facilitar a administração.</p>
-          </div>
-          <div class="catalog-controls">
-            <select id="sortSelect">
-              <option value="newest">Mais recentes</option>
-              <option value="relevance">Relevância</option>
-              <option value="price-low">Menor preço</option>
-              <option value="price-high">Maior preço</option>
-            </select>
-            <button id="viewAll" class="outline-btn">Ver todos</button>
-          </div>
-        </div>
-        <div id="productGrid" class="product-grid"></div>
-      </section>
+      <section id="catalogo" class="catalog-section"><div class="catalog-header"><div><h2>Produtos em destaque</h2><p>Explore modelos 3D brasileiros para games, renderização, simulação e projetos profissionais.</p></div><div class="catalog-controls"><select id="sortSelect"><option value="newest">Mais recentes</option><option value="relevance">Relevância</option><option value="price-low">Menor preço</option><option value="price-high">Maior preço</option></select><button id="viewAll" class="outline-btn">Ver todos</button></div></div><div id="productGrid" class="product-grid"></div></section>
 
-      <section id="como-funciona" class="how-section">
-        <article>
-          <strong>Preview 3D</strong>
-          <p>Use arquivos GLB para permitir que compradores vejam o modelo antes de comprar.</p>
-        </article>
-        <article>
-          <strong>Compatibilidade</strong>
-          <p>Organize por Unreal Engine, Blender, GTA/FiveM, formatos e categorias.</p>
-        </article>
-        <article>
-          <strong>Admin externo</strong>
-          <p>A administração não aparece na loja pública. Use Pages CMS diretamente pelo GitHub.</p>
-        </article>
-      </section>
+      <section id="beneficios" class="trust-section"><div class="trust-head"><span>MODELOS BRASIL PARA CRIADORES</span><h2>Assets digitais pensados para quem produz.</h2><p>Uma seleção de modelos 3D voltada para criadores, modders, estúdios, desenvolvedores e projetos de visualização.</p></div><div class="trust-grid"><article><span>01</span><h3>Modelos brasileiros</h3><p>Veículos, máquinas e assets com foco no mercado brasileiro, ideais para cenas, jogos, mapas e simulações nacionais.</p></article><article><span>02</span><h3>Pronto para produção</h3><p>Arquivos organizados para uso em Blender, Unreal Engine, GTA/FiveM, renderização, protótipos e projetos comerciais.</p></article><article><span>03</span><h3>Entrega digital</h3><p>Produtos digitais entregues por link ou contato direto após confirmação da compra, com informações claras sobre formatos e uso.</p></article></div></section>
 
-      <section id="licenca" class="license-section">
-        <h2>Licença e entrega digital</h2>
-        <p>Os produtos da MODELOS BRASIL podem ser vendidos com licença de uso pessoal ou comercial conforme a descrição de cada modelo. A revenda ou redistribuição dos arquivos originais deve permanecer proibida.</p>
-      </section>
+      <section id="licenca" class="license-section"><h2>Licença de uso</h2><p>Os modelos podem ser utilizados em projetos pessoais e comerciais conforme a descrição de cada produto. A revenda, redistribuição ou compartilhamento dos arquivos originais não é permitida.</p></section>
     </section>
   </main>
 
-  <footer class="footer">
-    <strong>MODELOS BRASIL</strong>
-    <span>Modelos 3D brasileiros para criadores, modders, estúdios e desenvolvedores.</span>
-  </footer>
-
+  <footer class="footer"><strong>MODELOS BRASIL</strong><span>Modelos 3D brasileiros para criadores, modders, estúdios e desenvolvedores.</span></footer>
   <script src="script.js"></script>
 </body>
 </html>
