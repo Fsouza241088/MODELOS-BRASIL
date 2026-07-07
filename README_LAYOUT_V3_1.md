@@ -1,14 +1,8 @@
 # MODELOS BRASIL - Layout Premium V3.1
 
-Versão corrigida da V3, com textos públicos voltados para compradores.
+Versão corrigida com textos voltados para compradores e pagamento via e-mail.
 
-## Ajustes da V3.1
-- Remove qualquer texto sobre Admin, GitHub, Pages CMS e produtos.json da loja pública.
-- Substitui a seção explicativa por uma seção comercial: Modelos brasileiros, Pronto para produção e Entrega digital.
-- Mantém administração externa via Pages CMS, sem link visível na loja.
-
-## Arquivos
-Substitua na raiz do repositório:
+## Substituir na raiz do repositório
 - index.html
 - produto.html
 - styles.css
@@ -18,4 +12,7 @@ Substitua na raiz do repositório:
 - .pages.yml
 - logo.svg
 
-Admin externo: https://app.pagescms.org/
+## Observações
+- Não há link de Admin na loja pública.
+- A compra continua por e-mail no botão Comprar agora.
+- O catálogo é carregado pelo produtos.json.

@@ -3,7 +3,7 @@
     {
       "id": "todos",
       "nome": "Todos os produtos",
-      "descricao": "Catálogo completo da MODELOS BRASIL",
+      "descricao": "Catálogo completo",
       "icone": "⌁"
     },
     {
@@ -25,34 +25,10 @@
       "icone": "▣"
     },
     {
-      "id": "motos",
-      "nome": "Motos",
-      "descricao": "Motocicletas e veículos leves",
-      "icone": "◇"
-    },
-    {
       "id": "maquinas",
       "nome": "Máquinas",
-      "descricao": "Máquinas agrícolas, industriais e obras",
+      "descricao": "Máquinas agrícolas e industriais",
       "icone": "◆"
-    },
-    {
-      "id": "emergencia",
-      "nome": "Veículos de Emergência",
-      "descricao": "Viaturas, ambulâncias e resgate",
-      "icone": "✦"
-    },
-    {
-      "id": "industriais",
-      "nome": "Veículos Industriais",
-      "descricao": "Frotas e equipamentos industriais",
-      "icone": "▦"
-    },
-    {
-      "id": "pecas",
-      "nome": "Peças e Acessórios",
-      "descricao": "Componentes, rodas, interiores e extras",
-      "icone": "◎"
     },
     {
       "id": "packs",
@@ -109,110 +85,6 @@
         "Escala padronizada",
         "Materiais separados",
         "Pronto para visualização 3D"
-      ],
-      "galeria": [
-        "assets/carro_gol.png"
-      ]
-    },
-    {
-      "id": "caminhao-scania-r440",
-      "nome": "Scania R440 6x2",
-      "subtitulo": "Caminhão pesado para simulação, logística e cenários rodoviários",
-      "categoria": "caminhoes",
-      "tipo": "Modelo individual",
-      "preco": 149.9,
-      "precoTexto": "R$ 149,90",
-      "destaque": true,
-      "novo": false,
-      "maisVendido": true,
-      "imagem": "assets/caminhao_volvo.png",
-      "glb": "https://drive.google.com/uc?id=EXEMPLO_DE_ID",
-      "formatos": [
-        "GLB",
-        "FBX",
-        "OBJ"
-      ],
-      "compatibilidade": [
-        "Blender",
-        "Unreal Engine"
-      ],
-      "tags": [
-        "Caminhão",
-        "Brasil",
-        "Simulação",
-        "Transporte"
-      ],
-      "tamanho": ">25 MB",
-      "poligonos": "Alto detalhe",
-      "avaliacao": "4.9",
-      "reviews": "28",
-      "licenca": "Uso pessoal e comercial conforme termos da loja. Revenda ou redistribuição dos arquivos originais não permitida.",
-      "descricaoCurta": "Modelo pesado para cenas de transporte e projetos de simulação.",
-      "descricaoCompleta": "Asset de caminhão pesado criado para cenas automotivas, simulação logística e projetos de visualização.",
-      "inclusos": [
-        "Arquivo GLB",
-        "Arquivo FBX",
-        "Arquivo OBJ",
-        "Texturas"
-      ],
-      "detalhes": [
-        "Modelo em escala",
-        "Peças principais separadas",
-        "Indicado para simulação",
-        "Entrega por link externo quando necessário"
-      ],
-      "galeria": [
-        "assets/caminhao_volvo.png"
-      ]
-    },
-    {
-      "id": "onibus-urbano-br",
-      "nome": "Ônibus Urbano",
-      "subtitulo": "Modelo urbano brasileiro para cenários e simulação",
-      "categoria": "onibus",
-      "tipo": "Modelo individual",
-      "preco": 129.9,
-      "precoTexto": "R$ 129,90",
-      "destaque": true,
-      "novo": true,
-      "maisVendido": false,
-      "imagem": "assets/carro_gol.png",
-      "glb": "glb/carro_gol.glb",
-      "formatos": [
-        "GLB",
-        "FBX",
-        "OBJ"
-      ],
-      "compatibilidade": [
-        "Blender",
-        "Unreal Engine"
-      ],
-      "tags": [
-        "Ônibus",
-        "Brasil",
-        "Transporte",
-        "Game Ready"
-      ],
-      "tamanho": "~35 MB",
-      "poligonos": "Médio detalhe",
-      "avaliacao": "4.8",
-      "reviews": "19",
-      "licenca": "Uso pessoal e comercial conforme termos da loja.",
-      "descricaoCurta": "Ônibus urbano brasileiro para ambientação de cidades e projetos de transporte.",
-      "descricaoCompleta": "Modelo de ônibus urbano brasileiro preparado para uso em projetos digitais, games, cenas urbanas e simulações.",
-      "inclusos": [
-        "Arquivo GLB",
-        "Arquivo FBX",
-        "Arquivo OBJ",
-        "Texturas"
-      ],
-      "detalhes": [
-        "Preparado para vitrine",
-        "Ideal para cenários urbanos",
-        "Materiais editáveis"
-      ],
-      "galeria": [
-        "assets/carro_gol.png"
       ]
     },
     {
@@ -225,7 +97,7 @@
       "precoTexto": "R$ 299,90",
       "destaque": true,
       "novo": false,
-      "maisVendido": false,
+      "maisVendido": true,
       "imagem": "assets/carro_gol.png",
       "glb": "glb/carro_gol.glb",
       "formatos": [
@@ -261,9 +133,6 @@
         "Compatível com engines",
         "Boa base para projetos maiores",
         "Licença clara de uso"
-      ],
-      "galeria": [
-        "assets/carro_gol.png"
       ]
     }
   ]
