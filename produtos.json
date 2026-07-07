@@ -49,7 +49,7 @@
       "destaque": true,
       "novo": true,
       "maisVendido": false,
-      "imagem": "assets/carro_gol.png",
+      "imagem": "assets/gol_g5.jpg",
       "glb": "glb/carro_gol.glb",
       "formatos": [
         "GLB",
