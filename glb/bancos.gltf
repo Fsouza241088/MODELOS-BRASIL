@@ -1,0 +1,666 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.4.4"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 2868,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 719,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.650691271, -0.388177246, -0.21183221 ],
+			"max": [ 0.650521994, 0.524050593, 0.633056283 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 719,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 719,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 719,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 719,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 719,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 7,
+			"count": 1536,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 8,
+			"count": 381,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.730648279, -0.361219049, 0.738763928 ],
+			"max": [ 0.730478644, 0.29529351, 1.49256575 ]
+		},
+		{
+			"bufferView": 9,
+			"count": 381,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 10,
+			"count": 381,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 11,
+			"count": 381,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 12,
+			"count": 381,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 13,
+			"count": 381,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 14,
+			"count": 714,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 15,
+			"count": 180,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.726782441, -0.39720282, 0.0103602111 ],
+			"max": [ 0.726612985, 0.202283338, 2.01122904 ]
+		},
+		{
+			"bufferView": 16,
+			"count": 180,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 17,
+			"count": 180,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 18,
+			"count": 180,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 19,
+			"count": 180,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 20,
+			"count": 180,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "bancos.bin",
+			"byteLength": 91444
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 5736,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8628,
+			"byteOffset": 5736,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8628,
+			"byteOffset": 14364,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11504,
+			"byteOffset": 22992,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5752,
+			"byteOffset": 34496,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5752,
+			"byteOffset": 40248,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5752,
+			"byteOffset": 46000,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3072,
+			"byteOffset": 51752,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4572,
+			"byteOffset": 54824,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4572,
+			"byteOffset": 59396,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6096,
+			"byteOffset": 63968,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3048,
+			"byteOffset": 70064,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3048,
+			"byteOffset": 73112,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3048,
+			"byteOffset": 76160,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 714,
+			"byteOffset": 79208,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2160,
+			"byteOffset": 79924,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2160,
+			"byteOffset": 82084,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2880,
+			"byteOffset": 84244,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1440,
+			"byteOffset": 87124,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1440,
+			"byteOffset": 88564,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1440,
+			"byteOffset": 90004,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Leather_Beige_Perforated_bancos_BaseColor.png"
+		},
+		{
+			"uri": "MI_Leather_Beige_Perforated_bancos_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Leather_Beige_Perforated_bancos_Normal.png"
+		},
+		{
+			"uri": "MI_Leather_Beige_Perforated_bancos_Occlusion.png"
+		},
+		{
+			"uri": "MI_Leather_Beige_Perforated_bancos_Specular.png"
+		},
+		{
+			"uri": "MI_Leather_Beige_Perforated_bancos_BaseColor_1.png"
+		},
+		{
+			"uri": "MI_Leather_Beige_Perforated_bancos_MetallicRoughness_1.png"
+		},
+		{
+			"uri": "MI_Leather_Beige_Perforated_bancos_Normal_1.png"
+		},
+		{
+			"uri": "MI_Leather_Beige_Perforated_bancos_Occlusion_1.png"
+		},
+		{
+			"uri": "MI_Leather_Beige_Perforated_bancos_Specular_1.png"
+		},
+		{
+			"uri": "MI_CarbonFiber_bancos_BaseColor.png"
+		},
+		{
+			"uri": "MI_CarbonFiber_bancos_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_CarbonFiber_bancos_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0,
+					"texCoord": 2,
+					"extensions":
+					{
+						"KHR_texture_transform":
+						{
+							"offset": [ -0.00825994182, -0.00834761374 ],
+							"scale": [ 1.0242641, 1.03513575 ]
+						}
+					}
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1,
+					"texCoord": 2,
+					"extensions":
+					{
+						"KHR_texture_transform":
+						{
+							"offset": [ -0.00825994182, -0.00834761374 ],
+							"scale": [ 1.0242641, 1.03513575 ]
+						}
+					}
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2,
+				"texCoord": 2,
+				"extensions":
+				{
+					"KHR_texture_transform":
+					{
+						"offset": [ -0.00825994182, -0.00834761374 ],
+						"scale": [ 1.0242641, 1.03513575 ]
+					}
+				}
+			},
+			"occlusionTexture":
+			{
+				"index": 3,
+				"texCoord": 2,
+				"extensions":
+				{
+					"KHR_texture_transform":
+					{
+						"offset": [ -0.00825994182, -0.00834761374 ],
+						"scale": [ 1.0242641, 1.03513575 ]
+					}
+				}
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularTexture":
+					{
+						"index": 4,
+						"texCoord": 2,
+						"extensions":
+						{
+							"KHR_texture_transform":
+							{
+								"offset": [ -0.00825994182, -0.00834761374 ],
+								"scale": [ 1.0242641, 1.03513575 ]
+							}
+						}
+					}
+				},
+				"KHR_materials_sheen":
+				{
+					"sheenRoughnessFactor": 1
+				}
+			}
+		},
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 5,
+					"texCoord": 2,
+					"extensions":
+					{
+						"KHR_texture_transform":
+						{
+							"offset": [ -0.00917797629, -0.0082682129 ],
+							"scale": [ 1.13810384, 1.02528965 ]
+						}
+					}
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 6,
+					"texCoord": 2,
+					"extensions":
+					{
+						"KHR_texture_transform":
+						{
+							"offset": [ -0.00917797629, -0.0082682129 ],
+							"scale": [ 1.13810384, 1.02528965 ]
+						}
+					}
+				}
+			},
+			"normalTexture":
+			{
+				"index": 7,
+				"texCoord": 2,
+				"extensions":
+				{
+					"KHR_texture_transform":
+					{
+						"offset": [ -0.00917797629, -0.0082682129 ],
+						"scale": [ 1.13810384, 1.02528965 ]
+					}
+				}
+			},
+			"occlusionTexture":
+			{
+				"index": 8,
+				"texCoord": 2,
+				"extensions":
+				{
+					"KHR_texture_transform":
+					{
+						"offset": [ -0.00917797629, -0.0082682129 ],
+						"scale": [ 1.13810384, 1.02528965 ]
+					}
+				}
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularTexture":
+					{
+						"index": 9,
+						"texCoord": 2,
+						"extensions":
+						{
+							"KHR_texture_transform":
+							{
+								"offset": [ -0.00917797629, -0.0082682129 ],
+								"scale": [ 1.13810384, 1.02528965 ]
+							}
+						}
+					}
+				},
+				"KHR_materials_sheen":
+				{
+					"sheenRoughnessFactor": 1
+				}
+			}
+		},
+		{
+			"name": "MI_CarbonFiber_bancos",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 10,
+					"texCoord": 2,
+					"extensions":
+					{
+						"KHR_texture_transform":
+						{
+							"offset": [ -0.925890744, -0.544563293 ],
+							"scale": [ 1.94584322, 1.8253119 ]
+						}
+					}
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 11,
+					"texCoord": 2,
+					"extensions":
+					{
+						"KHR_texture_transform":
+						{
+							"offset": [ -0.925890744, -0.544563293 ],
+							"scale": [ 1.94584322, 1.8253119 ]
+						}
+					}
+				}
+			},
+			"normalTexture":
+			{
+				"index": 12,
+				"texCoord": 2,
+				"extensions":
+				{
+					"KHR_texture_transform":
+					{
+						"offset": [ -0.925890744, -0.544563293 ],
+						"scale": [ 1.94584322, 1.8253119 ]
+					}
+				}
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "bancos",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5,
+						"TEXCOORD_2": 6
+					},
+					"indices": 0,
+					"material": 0
+				},
+				{
+					"attributes":
+					{
+						"POSITION": 8,
+						"NORMAL": 9,
+						"TANGENT": 10,
+						"TEXCOORD_0": 11,
+						"TEXCOORD_1": 12,
+						"TEXCOORD_2": 13
+					},
+					"indices": 7,
+					"material": 1
+				},
+				{
+					"attributes":
+					{
+						"POSITION": 15,
+						"NORMAL": 16,
+						"TANGENT": 17,
+						"TEXCOORD_0": 18,
+						"TEXCOORD_1": 19,
+						"TEXCOORD_2": 20
+					},
+					"indices": 14,
+					"material": 2
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos_Normal",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos_Occlusion",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos_Specular",
+			"sampler": 0,
+			"source": 4
+		},
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos_BaseColor",
+			"sampler": 0,
+			"source": 5
+		},
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos_MetallicRoughness",
+			"sampler": 0,
+			"source": 6
+		},
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos_Normal",
+			"sampler": 0,
+			"source": 7
+		},
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos_Occlusion",
+			"sampler": 0,
+			"source": 8
+		},
+		{
+			"name": "MI_Leather_Beige_Perforated_bancos_Specular",
+			"sampler": 0,
+			"source": 9
+		},
+		{
+			"name": "MI_CarbonFiber_bancos_BaseColor",
+			"sampler": 0,
+			"source": 10
+		},
+		{
+			"name": "MI_CarbonFiber_bancos_MetallicRoughness",
+			"sampler": 0,
+			"source": 11
+		},
+		{
+			"name": "MI_CarbonFiber_bancos_Normal",
+			"sampler": 0,
+			"source": 12
+		}
+	],
+	"extensionsUsed": [
+		"KHR_texture_transform",
+		"KHR_materials_specular",
+		"KHR_materials_sheen"
+	]
+}
