@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MODELOS BRASIL | Marketplace de Modelos 3D Brasileiros</title>
+  <meta name="description" content="MODELOS BRASIL: marketplace de modelos 3D brasileiros para Unreal Engine, Blender, GTA/FiveM, games, renderização e simulação." />
+  <meta name="theme-color" content="#090d14" />
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="brand" aria-label="MODELOS BRASIL - Página inicial">
+      <img src="logo.svg" alt="MODELOS BRASIL" class="brand-logo" />
+      <span class="brand-copy">
+        <strong>MODELOS BRASIL</strong>
+        <small>3D Assets Marketplace</small>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html#discover">Explorar</a>
+      <a href="index.html#categorias">Categorias</a>
+      <a href="index.html#lancamentos">Lançamentos</a>
+      <a href="index.html#licenca">Licença</a>
+      <a href="mailto:fabricio.souza2088@gmail.com?subject=Contato - MODELOS BRASIL">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-soft" href="mailto:fabricio.souza2088@gmail.com?subject=Pedido personalizado - MODELOS BRASIL">Pedido personalizado</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-shell">
+      <div class="hero-content">
+        <span class="kicker">Marketplace brasileiro de assets 3D</span>
+        <h1>Modelos 3D prontos para games, Unreal, Blender, GTA/FiveM e simulação.</h1>
+        <p>
+          Uma vitrine profissional para veículos brasileiros, máquinas, packs e assets digitais com
+          preview 3D, categorias, filtros e páginas detalhadas de produto.
+        </p>
+        <div class="hero-actions">
+          <a href="#discover" class="btn btn-primary">Explorar catálogo</a>
+          <a href="produto.html?id=carro-gol" class="btn btn-ghost">Ver produto destaque</a>
+        </div>
+        <div class="hero-metrics" aria-label="Destaques da loja">
+          <div><strong>3D</strong><span>Preview interativo</span></div>
+          <div><strong>BR</strong><span>Foco em veículos nacionais</span></div>
+          <div><strong>Game Ready</strong><span>Organizado para produção</span></div>
+        </div>
+      </div>
+
+      <aside class="hero-preview" aria-label="Produto em destaque">
+        <div class="hero-preview-top">
+          <span>Destaque</span>
+          <small>Carros / Game Ready</small>
+        </div>
+        <model-viewer class="hero-viewer" src="glb/carro_gol.glb" poster="assets/carro_gol.png" camera-controls auto-rotate shadow-intensity="1" alt="Carro Gol modelo 3D"></model-viewer>
+        <div class="hero-product-row">
+          <div>
+            <strong>Carro Gol</strong>
+            <span>Modelo 3D brasileiro para games e visualização</span>
+          </div>
+          <a href="produto.html?id=carro-gol" class="pill-link">Detalhes</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="market-strip" id="categorias" aria-label="Categorias principais"></section>
+
+    <section class="catalog-head" id="discover">
+      <div>
+        <span class="kicker">Explorar assets</span>
+        <h2>Catálogo MODELOS BRASIL</h2>
+        <p>Busque por nome, categoria, compatibilidade, formato ou tag.</p>
+      </div>
+      <div class="search-panel">
+        <input id="searchInput" type="search" placeholder="Buscar Gol, caminhão, Unreal, GTA, FBX..." />
+        <select id="sortSelect" aria-label="Ordenar produtos">
+          <option value="relevance">Ordenar: Relevância</option>
+          <option value="newest">Mais recentes</option>
+          <option value="price-low">Menor preço</option>
+          <option value="price-high">Maior preço</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="layout-shop">
+      <aside class="filters-panel" aria-label="Filtros do catálogo">
+        <div class="filter-block">
+          <h3>Categorias</h3>
+          <div id="categoryFilters" class="filter-list"></div>
+        </div>
+        <div class="filter-block">
+          <h3>Compatibilidade</h3>
+          <div id="engineFilters" class="filter-list"></div>
+        </div>
+        <div class="filter-block">
+          <h3>Tipo</h3>
+          <div id="typeFilters" class="filter-list"></div>
+        </div>
+      </aside>
+
+      <section class="products-area">
+        <div class="results-bar">
+          <strong id="resultsCount">0 produtos</strong>
+          <span>Visualização em cards profissionais</span>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+    </section>
+
+    <section class="featured-section" id="lancamentos">
+      <div class="section-title">
+        <span class="kicker">Base profissional</span>
+        <h2>Construído para evoluir para uma loja real.</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <strong>Página individual</strong>
+          <p>Cada modelo tem uma página exclusiva com visualizador 3D, galeria, detalhes técnicos, licença e compra.</p>
+        </article>
+        <article>
+          <strong>Categorias e filtros</strong>
+          <p>Organização por veículos, engines, formatos e tipo de asset, preparada para crescer.</p>
+        </article>
+        <article>
+          <strong>Domínio próprio</strong>
+          <p>Estrutura estática compatível com GitHub Pages, Vercel, Netlify e hospedagem profissional.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="license-section" id="licenca">
+      <div>
+        <span class="kicker">Licença</span>
+        <h2>Uso digital claro para o comprador.</h2>
+      </div>
+      <p>
+        Os produtos podem ser vendidos com licença de uso pessoal ou comercial conforme a descrição de cada item.
+        A revenda ou redistribuição dos arquivos originais deve permanecer proibida nos termos da loja.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>MODELOS BRASIL</strong>
+      <p>Modelos 3D brasileiros para criadores, modders, estúdios e desenvolvedores.</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:fabricio.souza2088@gmail.com">fabricio.souza2088@gmail.com</a>
+      <a href="index.html#discover">Catálogo</a>
+      <a href="index.html#licenca">Licença</a>
+    </div>
+  </footer>
+
+  <script src="produtos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
