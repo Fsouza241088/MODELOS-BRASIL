@@ -2,54 +2,69 @@
   "categorias": [
     {
       "id": "todos",
-      "nome": "Todos",
-      "descricao": "Todos os produtos"
+      "nome": "Todos os produtos",
+      "descricao": "Catálogo completo da MODELOS BRASIL",
+      "icone": "⌁"
     },
     {
       "id": "carros",
       "nome": "Carros",
-      "descricao": "Veículos leves"
+      "descricao": "Veículos leves brasileiros",
+      "icone": "▱"
     },
     {
       "id": "caminhoes",
       "nome": "Caminhões",
-      "descricao": "Veículos pesados"
+      "descricao": "Veículos pesados e logística",
+      "icone": "▰"
     },
     {
       "id": "onibus",
       "nome": "Ônibus",
-      "descricao": "Transporte"
+      "descricao": "Transporte urbano e rodoviário",
+      "icone": "▣"
+    },
+    {
+      "id": "motos",
+      "nome": "Motos",
+      "descricao": "Motocicletas e veículos leves",
+      "icone": "◇"
     },
     {
       "id": "maquinas",
       "nome": "Máquinas",
-      "descricao": "Máquinas"
+      "descricao": "Máquinas agrícolas, industriais e obras",
+      "icone": "◆"
+    },
+    {
+      "id": "emergencia",
+      "nome": "Veículos de Emergência",
+      "descricao": "Viaturas, ambulâncias e resgate",
+      "icone": "✦"
+    },
+    {
+      "id": "industriais",
+      "nome": "Veículos Industriais",
+      "descricao": "Frotas e equipamentos industriais",
+      "icone": "▦"
+    },
+    {
+      "id": "pecas",
+      "nome": "Peças e Acessórios",
+      "descricao": "Componentes, rodas, interiores e extras",
+      "icone": "◎"
     },
     {
       "id": "packs",
       "nome": "Packs",
-      "descricao": "Pacotes"
-    },
-    {
-      "id": "unreal",
-      "nome": "Unreal Engine",
-      "descricao": "Assets Unreal"
-    },
-    {
-      "id": "gta",
-      "nome": "GTA / FiveM",
-      "descricao": "Mods"
-    },
-    {
-      "id": "blender",
-      "nome": "Blender",
-      "descricao": "Edição 3D"
+      "descricao": "Pacotes completos de assets",
+      "icone": "▧"
     }
   ],
   "produtos": [
     {
-      "id": "carro-gol",
-      "nome": "Carro Gol",
+      "id": "carro-gol-g5",
+      "nome": "Carro Gol G5",
       "subtitulo": "Modelo 3D brasileiro compacto e versátil",
       "categoria": "carros",
       "tipo": "Modelo individual",
@@ -57,6 +72,7 @@
       "precoTexto": "R$ 89,90",
       "destaque": true,
       "novo": true,
+      "maisVendido": false,
       "imagem": "assets/carro_gol.png",
       "glb": "glb/carro_gol.glb",
       "formatos": [
@@ -77,19 +93,174 @@
       ],
       "tamanho": "~22 MB",
       "poligonos": "Médio detalhe",
-      "licenca": "Uso pessoal e comercial conforme termos da loja",
+      "avaliacao": "5.0",
+      "reviews": "12",
+      "licenca": "Uso pessoal e comercial conforme termos da loja. Revenda ou redistribuição dos arquivos originais não permitida.",
       "descricaoCurta": "Modelo clássico brasileiro para games, renderização, estudos e simulação.",
-      "descricaoCompleta": "Modelo 3D de veículo brasileiro, organizado para uso em projetos digitais.",
+      "descricaoCompleta": "Modelo 3D de veículo brasileiro, organizado para uso em projetos digitais. Ideal para protótipos, jogos, visualização automotiva, mods e estudos. Estrutura pensada para facilitar edição no Blender e integração em engines.",
       "inclusos": [
-        "Arquivo GLB para preview",
-        "Arquivo FBX",
-        "Arquivo OBJ",
+        "Arquivo GLB para preview web",
+        "Arquivo FBX para engines",
+        "Arquivo OBJ para compatibilidade",
         "Texturas organizadas"
       ],
       "detalhes": [
         "Malha organizada",
         "Escala padronizada",
-        "Materiais separados"
+        "Materiais separados",
+        "Pronto para visualização 3D"
+      ],
+      "galeria": [
+        "assets/carro_gol.png"
+      ]
+    },
+    {
+      "id": "caminhao-scania-r440",
+      "nome": "Scania R440 6x2",
+      "subtitulo": "Caminhão pesado para simulação, logística e cenários rodoviários",
+      "categoria": "caminhoes",
+      "tipo": "Modelo individual",
+      "preco": 149.9,
+      "precoTexto": "R$ 149,90",
+      "destaque": true,
+      "novo": false,
+      "maisVendido": true,
+      "imagem": "assets/caminhao_volvo.png",
+      "glb": "https://drive.google.com/uc?id=EXEMPLO_DE_ID",
+      "formatos": [
+        "GLB",
+        "FBX",
+        "OBJ"
+      ],
+      "compatibilidade": [
+        "Blender",
+        "Unreal Engine"
+      ],
+      "tags": [
+        "Caminhão",
+        "Brasil",
+        "Simulação",
+        "Transporte"
+      ],
+      "tamanho": ">25 MB",
+      "poligonos": "Alto detalhe",
+      "avaliacao": "4.9",
+      "reviews": "28",
+      "licenca": "Uso pessoal e comercial conforme termos da loja. Revenda ou redistribuição dos arquivos originais não permitida.",
+      "descricaoCurta": "Modelo pesado para cenas de transporte e projetos de simulação.",
+      "descricaoCompleta": "Asset de caminhão pesado criado para cenas automotivas, simulação logística e projetos de visualização. Arquivos grandes podem ser entregues via link externo seguro.",
+      "inclusos": [
+        "Arquivo GLB",
+        "Arquivo FBX",
+        "Arquivo OBJ",
+        "Texturas"
+      ],
+      "detalhes": [
+        "Modelo em escala",
+        "Peças principais separadas",
+        "Indicado para simulação",
+        "Entrega por link externo quando necessário"
+      ],
+      "galeria": [
+        "assets/caminhao_volvo.png"
+      ]
+    },
+    {
+      "id": "onibus-urbano-br",
+      "nome": "Ônibus Urbano",
+      "subtitulo": "Modelo urbano brasileiro para cenários e simulação",
+      "categoria": "onibus",
+      "tipo": "Modelo individual",
+      "preco": 129.9,
+      "precoTexto": "R$ 129,90",
+      "destaque": true,
+      "novo": true,
+      "maisVendido": false,
+      "imagem": "assets/carro_gol.png",
+      "glb": "glb/carro_gol.glb",
+      "formatos": [
+        "GLB",
+        "FBX",
+        "OBJ"
+      ],
+      "compatibilidade": [
+        "Blender",
+        "Unreal Engine"
+      ],
+      "tags": [
+        "Ônibus",
+        "Brasil",
+        "Transporte",
+        "Game Ready"
+      ],
+      "tamanho": "~35 MB",
+      "poligonos": "Médio detalhe",
+      "avaliacao": "4.8",
+      "reviews": "19",
+      "licenca": "Uso pessoal e comercial conforme termos da loja.",
+      "descricaoCurta": "Ônibus urbano brasileiro para ambientação de cidades e projetos de transporte.",
+      "descricaoCompleta": "Modelo de ônibus urbano brasileiro preparado para uso em projetos digitais, games, cenas urbanas e simulações.",
+      "inclusos": [
+        "Arquivo GLB",
+        "Arquivo FBX",
+        "Arquivo OBJ",
+        "Texturas"
+      ],
+      "detalhes": [
+        "Preparado para vitrine",
+        "Ideal para cenários urbanos",
+        "Materiais editáveis"
+      ],
+      "galeria": [
+        "assets/carro_gol.png"
+      ]
+    },
+    {
+      "id": "pack-veiculos-brasileiros",
+      "nome": "Pack Veículos Brasileiros",
+      "subtitulo": "Pacote inicial de veículos brasileiros para produção",
+      "categoria": "packs",
+      "tipo": "Pack",
+      "preco": 299.9,
+      "precoTexto": "R$ 299,90",
+      "destaque": true,
+      "novo": false,
+      "maisVendido": false,
+      "imagem": "assets/carro_gol.png",
+      "glb": "glb/carro_gol.glb",
+      "formatos": [
+        "GLB",
+        "FBX",
+        "OBJ"
+      ],
+      "compatibilidade": [
+        "Blender",
+        "Unreal Engine",
+        "GTA / FiveM"
+      ],
+      "tags": [
+        "Pack",
+        "Brasil",
+        "Game Ready",
+        "Veículos"
+      ],
+      "tamanho": "Variável",
+      "poligonos": "Misto",
+      "avaliacao": "5.0",
+      "reviews": "34",
+      "licenca": "Uso pessoal e comercial conforme termos da loja.",
+      "descricaoCurta": "Pack demonstrativo com veículos brasileiros para games, engines e visualização.",
+      "descricaoCompleta": "Pacote pensado para compradores que precisam de vários veículos brasileiros em um único produto. Ideal para iniciar projetos de mapas, simulação urbana e catálogos digitais.",
+      "inclusos": [
+        "Múltiplos modelos 3D",
+        "Formatos populares",
+        "Texturas",
+        "Organização por pastas"
+      ],
+      "detalhes": [
+        "Compatível com engines",
+        "Boa base para projetos maiores",
+        "Licença clara de uso"
       ],
       "galeria": [
         "assets/carro_gol.png"

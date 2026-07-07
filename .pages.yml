@@ -32,13 +32,16 @@ content:
           - name: descricao
             label: Descrição
             type: text
+          - name: icone
+            label: Ícone simples
+            type: string
       - name: produtos
         label: Produtos
         type: object
         list: true
         fields:
           - name: id
-            label: ID do produto
+            label: ID do produto para URL
             type: string
           - name: nome
             label: Nome
@@ -63,6 +66,9 @@ content:
             type: boolean
           - name: novo
             label: Lançamento
+            type: boolean
+          - name: maisVendido
+            label: Mais vendido
             type: boolean
           - name: imagem
             label: Imagem principal
@@ -103,6 +109,12 @@ content:
             type: string
           - name: poligonos
             label: Nível de detalhe
+            type: string
+          - name: avaliacao
+            label: Avaliação
+            type: string
+          - name: reviews
+            label: Quantidade de avaliações
             type: string
           - name: licenca
             label: Licença
