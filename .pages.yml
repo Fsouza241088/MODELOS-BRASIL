@@ -1,0 +1,131 @@
+media:
+  - name: imagens
+    label: Imagens dos produtos
+    input: assets
+    output: assets
+    extensions: [png, jpg, jpeg, webp]
+    rename: safe
+  - name: modelos3d
+    label: Arquivos 3D GLB
+    input: glb
+    output: glb
+    extensions: [glb]
+    rename: safe
+content:
+  - name: catalogo
+    label: Catálogo da MODELOS BRASIL
+    type: file
+    path: produtos.json
+    format: json
+    fields:
+      - name: categorias
+        label: Categorias
+        type: object
+        list: true
+        fields:
+          - name: id
+            label: ID
+            type: string
+          - name: nome
+            label: Nome
+            type: string
+          - name: descricao
+            label: Descrição
+            type: text
+      - name: produtos
+        label: Produtos
+        type: object
+        list: true
+        fields:
+          - name: id
+            label: ID do produto
+            type: string
+          - name: nome
+            label: Nome
+            type: string
+          - name: subtitulo
+            label: Subtítulo
+            type: string
+          - name: categoria
+            label: Categoria
+            type: string
+          - name: tipo
+            label: Tipo
+            type: string
+          - name: preco
+            label: Preço numérico
+            type: number
+          - name: precoTexto
+            label: Preço exibido
+            type: string
+          - name: destaque
+            label: Destaque
+            type: boolean
+          - name: novo
+            label: Lançamento
+            type: boolean
+          - name: imagem
+            label: Imagem principal
+            type: image
+            options:
+              media: imagens
+          - name: glb
+            label: Arquivo GLB
+            type: file
+            options:
+              media: modelos3d
+          - name: formatos
+            label: Formatos
+            type: object
+            list: true
+            fields:
+              - name: item
+                label: Formato
+                type: string
+          - name: compatibilidade
+            label: Compatibilidade
+            type: object
+            list: true
+            fields:
+              - name: item
+                label: Compatibilidade
+                type: string
+          - name: tags
+            label: Tags
+            type: object
+            list: true
+            fields:
+              - name: item
+                label: Tag
+                type: string
+          - name: tamanho
+            label: Tamanho
+            type: string
+          - name: poligonos
+            label: Nível de detalhe
+            type: string
+          - name: licenca
+            label: Licença
+            type: text
+          - name: descricaoCurta
+            label: Descrição curta
+            type: text
+          - name: descricaoCompleta
+            label: Descrição completa
+            type: rich-text
+          - name: inclusos
+            label: Arquivos inclusos
+            type: object
+            list: true
+            fields:
+              - name: item
+                label: Item
+                type: string
+          - name: detalhes
+            label: Detalhes técnicos
+            type: object
+            list: true
+            fields:
+              - name: item
+                label: Detalhe
+                type: string

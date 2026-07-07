@@ -1,0 +1,99 @@
+{
+  "categorias": [
+    {
+      "id": "todos",
+      "nome": "Todos",
+      "descricao": "Todos os produtos"
+    },
+    {
+      "id": "carros",
+      "nome": "Carros",
+      "descricao": "Veículos leves"
+    },
+    {
+      "id": "caminhoes",
+      "nome": "Caminhões",
+      "descricao": "Veículos pesados"
+    },
+    {
+      "id": "onibus",
+      "nome": "Ônibus",
+      "descricao": "Transporte"
+    },
+    {
+      "id": "maquinas",
+      "nome": "Máquinas",
+      "descricao": "Máquinas"
+    },
+    {
+      "id": "packs",
+      "nome": "Packs",
+      "descricao": "Pacotes"
+    },
+    {
+      "id": "unreal",
+      "nome": "Unreal Engine",
+      "descricao": "Assets Unreal"
+    },
+    {
+      "id": "gta",
+      "nome": "GTA / FiveM",
+      "descricao": "Mods"
+    },
+    {
+      "id": "blender",
+      "nome": "Blender",
+      "descricao": "Edição 3D"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "carro-gol",
+      "nome": "Carro Gol",
+      "subtitulo": "Modelo 3D brasileiro compacto e versátil",
+      "categoria": "carros",
+      "tipo": "Modelo individual",
+      "preco": 89.9,
+      "precoTexto": "R$ 89,90",
+      "destaque": true,
+      "novo": true,
+      "imagem": "assets/carro_gol.png",
+      "glb": "glb/carro_gol.glb",
+      "formatos": [
+        "GLB",
+        "FBX",
+        "OBJ"
+      ],
+      "compatibilidade": [
+        "Blender",
+        "Unreal Engine",
+        "GTA / FiveM"
+      ],
+      "tags": [
+        "Carro",
+        "Brasil",
+        "Game Ready",
+        "Veículo"
+      ],
+      "tamanho": "~22 MB",
+      "poligonos": "Médio detalhe",
+      "licenca": "Uso pessoal e comercial conforme termos da loja",
+      "descricaoCurta": "Modelo clássico brasileiro para games, renderização, estudos e simulação.",
+      "descricaoCompleta": "Modelo 3D de veículo brasileiro, organizado para uso em projetos digitais.",
+      "inclusos": [
+        "Arquivo GLB para preview",
+        "Arquivo FBX",
+        "Arquivo OBJ",
+        "Texturas organizadas"
+      ],
+      "detalhes": [
+        "Malha organizada",
+        "Escala padronizada",
+        "Materiais separados"
+      ],
+      "galeria": [
+        "assets/carro_gol.png"
+      ]
+    }
+  ]
+}
